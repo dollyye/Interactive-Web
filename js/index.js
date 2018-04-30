@@ -8,14 +8,12 @@ var $shapeInput = document.querySelector("#shape");
 var $searchBtn = document.querySelector("#search");
 var $recordCounter = document.querySelector("#recordCounter");
 var $pages = document.querySelector("#pages");
-//var $loadBtn = document.querySelector("#load");
 var $nextBtn = document.querySelector("#next");
 var $prevBtn = document.querySelector("#prev");
 var $pageCounter = document.querySelector("#pageCounter")
 
 // Add event listeners
 $searchBtn.addEventListener("click", handleSearchButtonClick);
-//$loadBtn.addEventListener("click", handleReloadButtonClick);
 $nextBtn.addEventListener("click", handleNextButtonClick);
 $prevBtn.addEventListener("click", handlePrevButtonClick);
 $pages.addEventListener("change", handlePagesChange);
@@ -93,18 +91,6 @@ function handleSearchButtonClick() {
     renderTable();
 }
 
-// handleReloadButtonClick resets count and search fields, and renders
-// function handleReloadButtonClick() {
-//    count = 0;
-//    filteredData = dataSet;
-//    $dateTimeInput.value = '';
-//    $cityInput.value = '';
-//    $stateInput.value = '';
-//    $countryInput.value = '';
-//    $shapeInput.value = '';
-
-//    renderTable();
-//}
 
 // Define renderTable function
 function renderTable() {
