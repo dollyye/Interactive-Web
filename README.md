@@ -1,6 +1,6 @@
-# JavaScript and DOM Manipulation
+# Check out the finished web page for [UFO sightings](https://dollyye.github.io/Interactive-Web/)!
 
-Check out the finished web page for [UFO sightings](https://dollyye.github.io/Interactive-Web/)!
+## JavaScript and DOM Manipulation
 
 ## Background Scenario:
 
